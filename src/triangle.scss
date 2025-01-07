@@ -8,6 +8,8 @@
 
     $long: calc($side * math.sqrt(3));
 
-    // 下向きの三角形
-    border-top: $long solid $color;
+    @if($position == bottom){
+        // 下向きの三角形
+        border-top: $long solid $color;
+    }
 }
