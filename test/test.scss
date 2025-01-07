@@ -11,3 +11,7 @@
 .equilateral-left{
     @include equilateral(30px,left,#00f);
 }
+
+.equilateral-right{
+    @include equilateral(30px,right,#00f);
+}
