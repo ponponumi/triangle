@@ -7,3 +7,7 @@
 .equilateral-bottom{
     @include equilateral(30px,bottom,#00f);
 }
+
+.equilateral-left{
+    @include equilateral(30px,left,#00f);
+}
