@@ -11,6 +11,7 @@
     @if($position == bottom){
         // 下向きの三角形
         border-top: $long solid $color;
+        border-bottom-width: 0;
     }@else if($position == left){
         // 左向きの三角形
         border-right: $long solid $color;
