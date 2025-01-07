@@ -9,6 +9,7 @@
   "author": "ponponumi",
   "license": "MIT",
   "devDependencies": {
+    "sass": "^1.83.1",
     "vite": "^6.0.7"
   }
 }
