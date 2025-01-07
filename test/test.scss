@@ -1,5 +1,9 @@
 @use "../src/triangle.scss" as *;
 
+:root{
+    --triangle-top-width: 50px;
+}
+
 .equilateral-top{
     @include equilateral(30px,top,#00f);
 }
