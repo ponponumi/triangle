@@ -11,14 +11,14 @@
     @if($position == bottom){
         // 下向きの三角形
         border-top: $long solid $color;
-    }@else if($position == top){
-        // 上向きの三角形
-        border-bottom: $long solid $color;
     }@else if($position == left){
         // 左向きの三角形
         border-right: $long solid $color;
     }@else if($position == right){
         // 右向きの三角形
         border-left: $long solid $color;
+    }@else{
+        // 上向きの三角形
+        border-bottom: $long solid $color;
     }
 }
