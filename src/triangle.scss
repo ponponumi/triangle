@@ -21,5 +21,6 @@
     }@else if($position == top){
         // 上向きの三角形
         border-bottom: $long solid $color;
+        border-top-width: 0;
     }
 }
