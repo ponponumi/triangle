@@ -19,3 +19,7 @@
 .equilateral-right{
     @include equilateral(30px,right,#00f);
 }
+
+.triangle-100-50-bottom{
+    @include side_and_height(100px,50px,bottom,#f0f);
+}
