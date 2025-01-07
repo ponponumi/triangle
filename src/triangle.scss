@@ -3,6 +3,8 @@
 @mixin side_and_height($side,$height,$position,$color){
     // 三角形の高さと幅から三角形を生成する
     // sideは辺の長さ、heightは三角形の高さ
+    $side: calc(#{$side} / 2);
+
     width: 0px;
     height: 0px;
     border: #{$side} solid transparent;
@@ -37,7 +39,7 @@
 @mixin equilateral($side,$position,$color){
     // 正三角形を生成する
     // sideは辺の長さ、heightは三角形の高さ
-    $height: calc($side * math.sqrt(3));
+    $height: calc(#{$side} / 2 * math.sqrt(3));
 
     @include side_and_height($side, $height, $position, $color);
 }
