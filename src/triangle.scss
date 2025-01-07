@@ -1,1 +1,8 @@
 @use "sass:math";
+
+@mixin equilateral($side,$position,$color){
+    // 正三角形を生成する
+    width: 0px;
+    height: 0px;
+    border: #{$side} solid transparent;
+}
