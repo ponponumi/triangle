@@ -18,6 +18,7 @@
     }@else if($position == right){
         // 右向きの三角形
         border-left: $long solid $color;
+        border-right-width: 0;
     }@else if($position == top){
         // 上向きの三角形
         border-bottom: $long solid $color;
