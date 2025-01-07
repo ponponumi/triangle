@@ -5,7 +5,7 @@
 }
 
 .equilateral-top{
-    @include equilateral(30px,top,#00f);
+    @include equilateral(var(--triangle-top-width),top,#00f);
 }
 
 .equilateral-bottom{
